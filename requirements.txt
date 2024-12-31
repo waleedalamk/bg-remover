@@ -1,3 +1,4 @@
-flask
-rembg
+Flask==2.0.2
+rembg==2.0.29
 pillow
+onnxruntime==1.11.1  # Add this line
