@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Remover</title>
+</head>
+<body>
+    <h1>Image Background Remover</h1>
+    <form action="/remove-bg" method="POST" enctype="multipart/form-data">
+        <label for="image">Upload an Image:</label>
+        <input type="file" name="image" id="image" required>
+        <br><br>
+        <button type="submit">Remove Background</button>
+    </form>
+</body>
+</html>
